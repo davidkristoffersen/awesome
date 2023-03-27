@@ -12,6 +12,7 @@ local Gio = require("lgi").Gio
 local gstring = require("gears.string")
 local gtable = require("gears.table")
 
+--- @class GFilesystem
 local filesystem = {}
 
 local function make_directory(gfile)

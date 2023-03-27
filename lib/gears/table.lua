@@ -16,7 +16,7 @@ local rtable = table
 
 local gmath = require("gears.math")
 
---- @class gears.table
+--- @class GTable
 local gtable = {}
 
 --- Join all tables given as arguments.

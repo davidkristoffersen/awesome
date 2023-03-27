@@ -87,6 +87,7 @@ local gmath = require("gears.math")
 -- for the timer.
 -- @signal timeout
 
+--- @class GTimer
 local timer = { mt = {} }
 
 --- Start the timer.

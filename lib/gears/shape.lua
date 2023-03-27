@@ -58,6 +58,7 @@ if not pow then
     end
 end
 
+--- @class GShape
 local module = {}
 
 --- Add a squircle shape with only some of the corner are "circled" to the current path.

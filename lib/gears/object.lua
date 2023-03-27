@@ -15,6 +15,7 @@ local type = type
 local error = error
 local properties = require("gears.object.properties")
 
+--- @class GObject
 local object = { properties = properties, mt = {} }
 
 --- Verify that obj is indeed a valid object as returned by new()

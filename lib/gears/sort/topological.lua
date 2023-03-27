@@ -4,6 +4,7 @@
 -- @submodule gears.sort
 ---------------------------------------------------------------------------
 
+--- @class GSortTopological
 local tsort  = {}
 local gtable = require("gears.table")
 

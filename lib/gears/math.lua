@@ -8,6 +8,7 @@
 
 local rtable = table
 
+--- @class GMath
 local gmath = {}
 
 local function subset_mask_apply(mask, set)

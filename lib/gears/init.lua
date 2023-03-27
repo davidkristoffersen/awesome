@@ -5,7 +5,7 @@
 ---------------------------------------------------------------------------
 
 
---- @class gears
+--- @class Gears
 local gears =
 {
     color = require("gears.color");

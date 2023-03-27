@@ -11,7 +11,10 @@
 ---------------------------------------------------------------------------
 local math = math
 
-local gears = {geometry = {rectangle = {} } }
+local gears = {
+    --- @class GGeometry
+    geometry = {rectangle = {} }
+}
 
 --- Get the square distance between a rectangle and a point.
 -- @tparam table geom A rectangle
