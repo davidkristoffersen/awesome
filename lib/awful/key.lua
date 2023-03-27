@@ -107,6 +107,7 @@ local gobject = require("gears.object")
 -- @functionnoparam
 -- @functionnoreturn
 
+--- @class awful.key
 local key = { mt = {}, hotkeys = {} }
 
 local reverse_map = setmetatable({}, {__mode="k"})

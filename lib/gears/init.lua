@@ -5,7 +5,8 @@
 ---------------------------------------------------------------------------
 
 
-return
+--- @class gears
+local gears =
 {
     color = require("gears.color");
     debug = require("gears.debug");
@@ -24,5 +25,7 @@ return
     sort = require("gears.sort");
     filesystem = require("gears.filesystem");
 }
+
+return gears
 
 -- vim: filetype=lua:expandtab:shiftwidth=4:tabstop=8:softtabstop=4:textwidth=80

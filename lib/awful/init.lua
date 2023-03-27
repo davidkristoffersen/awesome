@@ -12,6 +12,7 @@ local deprecated = {
     ewmh = true
 }
 
+--- @class awful
 local ret = {
     client = require("awful.client");
     completion = require("awful.completion");
