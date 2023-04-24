@@ -11,7 +11,7 @@ local print = print
 local type = type
 local pairs = pairs
 
---- @class GDebug
+--- @class GearsDebug
 local debug = {}
 
 --- Given a table (or any other data) return a string that contains its

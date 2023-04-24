@@ -19,6 +19,7 @@ local spawn = require("awful.spawn")
 local wbutton = require("awful.widget.button")
 local button = require("awful.button")
 
+--- @class AwfulWidgetLauncher
 local launcher = { mt = {} }
 
 --- Create a button widget which will launch a command.

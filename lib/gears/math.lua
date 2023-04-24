@@ -8,7 +8,7 @@
 
 local rtable = table
 
---- @class GMath
+--- @class GearsMath
 local gmath = {}
 
 local function subset_mask_apply(mask, set)

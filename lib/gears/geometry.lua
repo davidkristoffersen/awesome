@@ -12,7 +12,7 @@
 local math = math
 
 local gears = {
-    --- @class GGeometry
+    --- @class GearsGeometry
     geometry = {rectangle = {} }
 }
 

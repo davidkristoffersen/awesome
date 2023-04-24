@@ -118,6 +118,7 @@ local amouse = require("awful.mouse")
 local akeyboard = require("awful.keyboard")
 local unpack = unpack or table.unpack -- luacheck: globals unpack (compatibility with Lua 5.1)
 
+--- @class RuledClient
 local module = {}
 
 local crules = gmatcher()

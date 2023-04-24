@@ -16,7 +16,7 @@ local gmath = require("gears.math")
 local gtable = require("gears.table")
 local gobject = require("gears.object")
 
---- @class AButton
+--- @class AwfulButton
 local button = { mt = {} }
 
 -- Due to non trivial abuse or `pairs` in older code, the private data cannot

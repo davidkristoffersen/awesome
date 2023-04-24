@@ -4,7 +4,7 @@
 -- @utillib gears.sort
 ---------------------------------------------------------------------------
 
---- @class GSort
+--- @class GearsSort
 local sort = {
     topological = require("gears.sort.topological")
 }

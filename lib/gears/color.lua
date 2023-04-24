@@ -51,7 +51,7 @@ local cairo = lgi.cairo
 local Pango = lgi.Pango
 local surface = require("gears.surface")
 
---- @class GColor
+--- @class GearsColor
 local color = { mt = {} }
 local pattern_cache
 local color_string_cache = setmetatable({}, { __mode = "k" })

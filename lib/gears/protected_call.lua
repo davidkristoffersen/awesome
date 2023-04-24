@@ -15,7 +15,7 @@ local traceback = debug.traceback
 local unpack = unpack or table.unpack -- luacheck: globals unpack (compatibility with Lua 5.1)
 local xpcall = xpcall
 
---- @class GProtected_call
+--- @class GearsProtected_call
 local protected_call = {}
 
 function protected_call._error_handler(err)

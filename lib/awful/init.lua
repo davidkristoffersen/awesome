@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------
---- AWesome Functions very UsefuL
+--- Awesome Functions very UsefuL
 --
 -- @author Julien Danjou &lt;julien@danjou.info&gt;
 -- @copyright 2008 Julien Danjou
@@ -12,7 +12,7 @@ local deprecated = {
     ewmh = true
 }
 
---- @class awful
+--- @class Awful
 local ret = {
     client = require("awful.client");
     completion = require("awful.completion");

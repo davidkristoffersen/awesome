@@ -4,7 +4,7 @@
 -- @utillib gears.string
 ---------------------------------------------------------------------------
 
---- @class GString
+--- @class GearsString
 local gstring = {}
 
 local xml_entity_names = { ["'"] = "&apos;", ["\""] = "&quot;", ["<"] = "&lt;", [">"] = "&gt;", ["&"] = "&amp;" };
