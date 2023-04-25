@@ -24,6 +24,7 @@ local xresources = require("beautiful.xresources")
 local theme_assets = require("beautiful.theme_assets")
 local gtk = require("beautiful.gtk")
 
+--- @class Beautiful
 local beautiful = {
     xresources = xresources,
     theme_assets = theme_assets,
