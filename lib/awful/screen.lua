@@ -29,6 +29,7 @@ end
 -- we use require("awful.client") inside functions to prevent circular dependencies.
 local client
 
+--- @class AwfulScreen
 local screen = {object={}}
 
 local data = {}
